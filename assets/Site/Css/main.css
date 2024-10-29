@@ -1,0 +1,103 @@
+.spin-and-win-menu {
+    width: auto;
+    display: inline-flex;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    height: auto;
+    z-index: 2222;
+}
+
+.spin-and-win-menu .spin_icon_text {
+    float: left;
+    margin-right: 10px;
+    display: inline-block;
+    position: relative;
+    background: #f7f7f7;
+    text-align: center;
+    line-height: 1.7em;
+    max-width: 100%;
+    bottom: 11px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-top: 22px;
+    box-shadow: -2px 5px 10px -2px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: -2px 5px 10px -2px rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow: -2px 5px 10px -2px rgba(0, 0, 0, 0.16);
+    right: 7%;
+}
+
+.spin-and-win-menu .spin_icon_text:after {
+    content: '';
+    position: absolute;
+    bottom: 12px;
+    border-top: 10px transparent solid;
+    border-bottom: 10px transparent solid;
+    right: -10px;
+    border-right: none;
+    border-left: 10px #f7f7f7 solid;
+}
+
+.spin-and-win-menu .privy-floating-text {
+    position: relative;
+    vertical-align: bottom;
+    font-size: 16px;
+    font-weight: 700;
+    color: #313437;
+    overflow: hidden;
+    max-width: 100%;
+    display: inline-block;
+}
+
+.spin-and-win-menu .spin_icon_img img {
+    width: 70px;
+    float: right;
+    border-radius: 50%;
+    box-shadow: 3px 5px 20px -1px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 3px 5px 20px -1px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 3px 5px 20px -1px rgba(0, 0, 0, 0.3);
+}
+
+
+.w50p {
+    width: 50%;
+}
+
+.w100p {
+    width: 100%;
+}
+
+
+.align-to-center {
+    text-align: center;
+}
+
+.div-table {
+    display: table;
+    width: 100%;
+}
+
+.div-table .div-table-row {
+    display: table-row;
+    width: 100%;
+}
+
+.div-table .div-table-row-column {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.wheel-container {
+    height: 582px;
+    vertical-align: middle;
+    line-height: 10px !important;
+    background-image: url("../../Images/wheel-back.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*menu icon*/
+body.woocommerce-account ul li.woocommerce-MyAccount-navigation-link--lucky-gifts a:before {
+    content: "\f1fd"
+}
